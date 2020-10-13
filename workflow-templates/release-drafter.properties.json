@@ -1,0 +1,5 @@
+{
+    "name": "Release Drafter",
+    "description": "Updates draft release notes on GitHub based on labels used.",
+    "iconName": "release-drafter-icon"
+}
