@@ -1,0 +1,18 @@
+extends: default
+ignore: |
+  .tox
+  # HACK: https://github.com/pyupio/pyup/issues/346
+  .pyup.yml
+rules:
+  braces:
+    max-spaces-inside: 1
+    level: error
+  brackets:
+    max-spaces-inside: 1
+    level: error
+  document-start: disable
+  line-length: disable
+  # https://github.com/adrienverge/yamllint/issues/141
+  comments-indentation: disable
+  truthy:
+    allowed-values: ['true', 'false', 'on']
