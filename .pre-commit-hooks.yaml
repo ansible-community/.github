@@ -1,0 +1,5 @@
+- id: shared-hooks
+  name: shared-hooks
+  language: script
+  entry: ./run-shared-hooks
+  verbose: true
